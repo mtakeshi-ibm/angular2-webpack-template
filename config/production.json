@@ -1,0 +1,27 @@
+{
+    "app": {
+        "global": {
+            "request_debug": false
+        }
+    },
+    "log4js": {
+        "appenders": [{
+            "category": "access",
+            "type": "console"
+        }, {
+            "category": "app",
+            "type": "console"
+        }, {
+            "category": "system",
+            "type": "console"
+        }, {
+            "type": "console"
+        }],
+        "levels": {
+            "access": "INFO",
+            "app": "INFO",
+            "system": "INFO",
+            "error": "ERROR"
+        }
+    }
+}
